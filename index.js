@@ -2,22 +2,17 @@ function EmployeeInfo(name, Salary)
 {
     console.log("Welcome " + name + " Your monthly Salary is " + Salary);
 }
-
 const currentDateTime = new Date();
 console.log("This is my first program");
 console.log("Programe run on : " + currentDateTime.toLocaleString());
-
 var EmpName = "John";
 var EmpSalary = 50000;
-
 EmployeeInfo(EmpName, EmpSalary);
-
 const EmpSkills= (skills,Name,LabGrp)=> 
     {
     console.log(" Student ID" + Name + "Expert in "+ skills)
     console.log(" Lab Group " + LabGrp)
 }
-
 EmpSkills(" css"," Anghelina Zubenco 2035035"," Group 18");
 // code for third Exercise
 const student= require('./StudentInfo')
